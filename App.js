@@ -97,7 +97,7 @@ export default function App() {
       <Text style={styles.buttonLabel}>Summe: {sum}</Text>
 
       <Pressable style={styles.button} key="reset" onPress={() => reset()}>
-        <Text style={styles.buttonLabel} key="reset">RESET</Text>
+        <Text style={styles.buttonLabel} key="reset">!! RESET !!</Text>
       </Pressable>
     </View>
   );
