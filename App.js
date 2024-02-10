@@ -96,8 +96,8 @@ export default function App() {
 
       <Text style={styles.buttonLabel}>Summe: {sum}</Text>
 
-      <Pressable style={styles.buttonReset} key="reset" onPress={() => reset()}>
-        <Text style={styles.buttonLabelReset} key="reset">RESET</Text>
+      <Pressable style={styles.button} key="reset" onPress={() => reset()}>
+        <Text style={styles.buttonLabel} key="reset">RESET</Text>
       </Pressable>
     </View>
   );
@@ -119,13 +119,5 @@ const styles = StyleSheet.create({
     marginBottom:20,
     color: '#000',
     fontSize: 23,
-  },
-  buttonReset: {
-    marginTop:50,
-  },
-  buttonLabelReset: {
-    marginTop:50,
-    color: '#000',
-    fontSize: 25,
   },
 });
