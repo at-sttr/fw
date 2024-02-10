@@ -110,7 +110,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
-    aspectRatio: 10 / 3
+    aspectRatio: 10 / 3,
+    paddingTop: 20
   },
   button: {
     marginBottom:20,
